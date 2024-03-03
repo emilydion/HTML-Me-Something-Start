@@ -1,1 +1,97 @@
 /* Write your CSS here! */
+body {
+    margin: 8px;
+    display: block; 
+    font-family: "Montserrat", sans-serif; 
+    font-weight: light; 
+    background-color: #FAFAFA; 
+}
+
+header {
+    font-size: 30px; 
+    text-align: center; 
+    color: #65BDF9;
+}
+
+main {
+    width: 80%; 
+    margin: auto; 
+}
+
+#mainHeading {
+    font-size: 50px; 
+    color: red; 
+    /* color: #005981; */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair Display", serif; 
+    color: #1978B7; 
+}
+
+h2 {
+    color: #65BDF9;
+}
+
+a {
+    color: #65BDF9; 
+    text-decoration: none; 
+    font-weight: bold; 
+}
+
+a:hover {
+    color: #1978B7; 
+}
+
+.heading {
+    font-size: 28px; 
+}
+
+#aboutMe {
+    display: flex; 
+    margin: auto; 
+    width: 75%; 
+    justify-content: center; 
+
+}
+
+#aboutMe img {
+    max-width: 300px; 
+    max-height: 300px; 
+    display: flex; 
+    align-content: center; 
+}
+
+#aboutMe .text {
+    padding: 0 50px; 
+    color: green; 
+}
+
+.funParagraph {
+    font-size: 18px; 
+}
+
+.main-bullet {
+    color: #65BDF9; 
+    font-family: "Playfair Display", serif; 
+    font-size: 18px; 
+}
+
+#skills {
+    text-align: center; 
+}
+
+.logos {
+    display: flex; 
+    justify-content: center; 
+    gap: 30px;
+}
+
+.logos img {
+    height: 70px; 
+}
+
+footer {
+    padding-top: 50px; 
+    text-align: center; 
+}
